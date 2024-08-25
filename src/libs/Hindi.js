@@ -10,7 +10,11 @@ class Hindi {
     }
 
     batao(...args) {
-        return ask.question(...args);
+        const ans = [];
+        args.map((item) => {
+            let tempAns = ask.question(item)
+            ans.push(tempAns);
+        });
     }
 }
 
