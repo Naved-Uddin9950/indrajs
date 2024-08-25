@@ -1,0 +1,31 @@
+{
+  "name": "IndraJS",
+  "version": "1.0.0",
+  "description": "JavaScript based hindi programming laguage for hindi users",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hindi",
+    "programming",
+    "language",
+    "js",
+    "javascript",
+    "hindi",
+    "indrajs",
+    "library",
+    "package",
+    "programming",
+    "hindi",
+    "programming"
+  ],
+  "author": "Naved Uddin",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
