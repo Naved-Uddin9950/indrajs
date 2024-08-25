@@ -15,6 +15,7 @@ class Hindi {
             let tempAns = ask.question(item)
             ans.push(tempAns);
         });
+        return ans;
     }
 }
 
