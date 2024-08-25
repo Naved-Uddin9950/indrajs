@@ -3,7 +3,8 @@ import readlineSync from 'readline-sync';
 const ask = readlineSync;
 
 class Hindi {
-    constructor() { }
+    constructor() {
+    }
 
     dikhao(...args) {
         console.log(...args);
@@ -16,6 +17,10 @@ class Hindi {
             ans.push(tempAns);
         });
         return ans;
+    }
+
+    rakho(variable, value) {
+        this[variable] = value;
     }
 }
 
