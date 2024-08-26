@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 
 const ask = readlineSync;
 
-class Hindi {
+export class Hindi {
     constructor() {
     }
 
@@ -23,5 +23,3 @@ class Hindi {
         this[variable] = value;
     }
 }
-
-export default Hindi;

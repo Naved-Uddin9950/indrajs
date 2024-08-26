@@ -1,4 +1,4 @@
-class Ganit {
+export class Ganit {
     constructor() { }
 
     jodo(...args) {
@@ -21,5 +21,3 @@ class Ganit {
         return args.reduce((div, item) => div / item);
     }
 }
-
-export default Ganit;
